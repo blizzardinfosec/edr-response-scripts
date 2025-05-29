@@ -21,3 +21,14 @@ A collection of practical response automation scripts for blue team operations. 
 | `mde_device_isolate.py` | Isolates Windows devices via Microsoft Defender API |
 
 Work in progress. Built for speed during an incident.
+
+---
+
+## 🧪 Usage Example
+
+```bash
+# Isolate a host
+python crowdstrike_isolate_host.py
+
+# Lookup a host by name
+python crowdstrike_lookup_device.py
